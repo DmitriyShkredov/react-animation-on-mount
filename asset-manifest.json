@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/react-animation-on-mount/static/css/main.5192618b.css",
+    "main.js": "/react-animation-on-mount/static/js/main.0b2356dc.js",
+    "index.html": "/react-animation-on-mount/index.html",
+    "static/media/menuIcon.svg": "/react-animation-on-mount/static/media/menuIcon.acf2aea579249862b22383b172cbc91f.svg",
+    "main.5192618b.css.map": "/react-animation-on-mount/static/css/main.5192618b.css.map",
+    "main.0b2356dc.js.map": "/react-animation-on-mount/static/js/main.0b2356dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5192618b.css",
+    "static/js/main.0b2356dc.js"
+  ]
+}
