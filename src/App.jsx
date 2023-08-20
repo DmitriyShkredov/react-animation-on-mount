@@ -1,22 +1,21 @@
-import logo from "./logo.svg";
+import React, { useState } from "react";
+import { ReactComponent as MenuIcon } from "./menuIcon.svg";
+import { Transition } from "react-transition-group";
 import "./App.css";
 
 function App() {
+  const [isOpen, setOpen] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Типичный веб разработчик</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Анимация при mount и unmount
-        </a>
-      </header>
-    </div>
+    <header className="header">
+      <Transition in={isOpen} timeout={300} unmountOnExit={true}>
+        {(state) => <nav className={`mobile-menu ${state}`}></nav>}
+      </Transition>
+
+      <button className="menu-button" onClick={() => setOpen(!isOpen)}>
+        <MenuIcon />
+      </button>
+    </header>
   );
 }
 
