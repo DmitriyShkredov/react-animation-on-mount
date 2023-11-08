@@ -2,6 +2,8 @@
 
 #### `Demo:` https://dmitriyshkredov.github.io/react-animation-on-mount/
 
+#### `Telegram:` [@tipichnyj_web_razrabotchik](https://t.me/tipichnyj_web_razrabotchik/26)
+
 #### `Youtube:` [Анимация меню при монтировании в React ｜ React animation on mount](https://youtu.be/wUXNLoprqgI)
 
 #### `VK Video:` [Анимация меню при монтировании в React ｜ React animation on mount](https://vk.com/video/@tipichnyjvebrazrabotchik?z=video-222570561_456239024%2Fclub222570561%2Fpl_-222570561_-2)
