@@ -14,7 +14,9 @@
 
 #### `npm install`
 
-#### `npm start`
+#### `npm run start`
+
+#### `npm run build`
 
 ---
 
